@@ -2,55 +2,55 @@
   {
     "id": "tiktok-ad",
     "name": "TikTok Ad",
-    "description": "30s vertical ad with upbeat music and captions",
-    "fields": ["Product Name", "Tagline", "Brand Colors"],
+    "description": "Dynamic vertical ad with trending music and engaging captions",
+    "fields": ["Product Name", "Headline", "Brand Colors"],
     "orientation": "vertical",
-    "duration": 30,
+    "duration": 8,
     "style": "modern, energetic, social media optimized"
   },
   {
-    "id": "explainer",
-    "name": "Explainer Video",
-    "description": "1 min animated explainer with voiceover",
-    "fields": ["Topic", "Main Points", "Voice Style"],
+    "id": "product-showcase",
+    "name": "Product Showcase",
+    "description": "Professional product demonstration with cinematic lighting",
+    "fields": ["Product Name", "Key Features", "Brand Colors"],
     "orientation": "landscape",
-    "duration": 60,
-    "style": "clean, professional, educational"
+    "duration": 8,
+    "style": "polished, feature-focused, commercial"
   },
   {
-    "id": "product-demo",
-    "name": "Product Demo",
-    "description": "2 min product showcase with features",
-    "fields": ["Product Name", "Key Features", "Target Audience"],
+    "id": "brand-story",
+    "name": "Brand Story",
+    "description": "Emotional brand narrative with compelling visuals",
+    "fields": ["Brand Name", "Mission", "Brand Colors"],
     "orientation": "landscape",
-    "duration": 120,
-    "style": "polished, feature-focused, commercial"
+    "duration": 8,
+    "style": "cinematic, brand-focused, emotional"
+  },
+  {
+    "id": "lifestyle-ad",
+    "name": "Lifestyle Ad",
+    "description": "Aspirational lifestyle content with smooth transitions",
+    "fields": ["Product Name", "Lifestyle Theme", "Brand Colors"],
+    "orientation": "vertical",
+    "duration": 8,
+    "style": "creative, artistic, brand-focused"
+  },
+  {
+    "id": "tech-demo",
+    "name": "Tech Demo",
+    "description": "High-tech product demonstration with futuristic visuals",
+    "fields": ["Product Name", "Tech Features", "Brand Colors"],
+    "orientation": "landscape",
+    "duration": 8,
+    "style": "minimalist, clean, product-focused"
   },
   {
     "id": "social-story",
     "name": "Social Story",
-    "description": "15s Instagram story format",
+    "description": "Quick, engaging content for social media stories",
     "fields": ["Message", "Brand Colors", "Call to Action"],
     "orientation": "vertical",
-    "duration": 15,
+    "duration": 8,
     "style": "casual, engaging, mobile-first"
-  },
-  {
-    "id": "brand-intro",
-    "name": "Brand Introduction",
-    "description": "45s brand story and values",
-    "fields": ["Brand Name", "Mission", "Brand Personality"],
-    "orientation": "landscape",
-    "duration": 45,
-    "style": "cinematic, brand-focused, emotional"
-  },
-  {
-    "id": "tutorial",
-    "name": "Tutorial",
-    "description": "3 min step-by-step tutorial",
-    "fields": ["Topic", "Steps", "Difficulty Level"],
-    "orientation": "landscape",
-    "duration": 180,
-    "style": "clear, instructional, beginner-friendly"
   }
 ]

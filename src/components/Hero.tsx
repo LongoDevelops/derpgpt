@@ -32,20 +32,47 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="text-lg px-8 py-4">
+            <Button
+              asChild
+              size="lg"
+              className="group relative text-lg px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-out border-0 overflow-hidden"
+            >
               <Link href="/auth/signup">
-                Start Creating Free
-                <Play className="ml-2 h-5 w-5" />
+                <span className="relative z-10 flex items-center">
+                  Start Creating Free
+                  <Play className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+            <Button
+              variant="outline"
+              size="lg"
+              className="text-lg px-8 py-4 border-2 border-gray-300 hover:border-blue-500 hover:text-blue-600 font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105"
+            >
               Watch Demo
             </Button>
           </div>
 
-          <p className="text-sm text-gray-500 mt-4">
-            No credit card required • 3 free videos • Cancel anytime
-          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+            <div className="flex items-center gap-2 bg-green-50 px-3 py-1 rounded-full border border-green-200">
+              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <span className="text-green-700 font-medium">
+                No credit card required
+              </span>
+            </div>
+            <div className="flex items-center gap-2 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+              <span className="text-blue-700 font-medium">3 free videos</span>
+            </div>
+            <div className="flex items-center gap-2 bg-purple-50 px-3 py-1 rounded-full border border-purple-200">
+              <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+              <span className="text-purple-700 font-medium">
+                Cancel anytime
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="mt-16">
